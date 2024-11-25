@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #6cb76e;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    transform: translateX(500);
+    align-items: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-menu li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .auth-buttons button {
+    background: #fff;
+    color: #6cb76e;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .auth-buttons button:hover {
+    background: #5aa360;
+    color: #fff;
+  }
+  
+  /* About Us Banner */
+  .about-us-banner {
+    background-color: #f0f6ef;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .about-us-banner h2 {
+    margin: 0;
+    color: #6cb76e;
+  }
+  
+  .about-us-banner p {
+    margin: 0.5rem 0 0;
+    color: #555;
+  }
+  
+  /* About Us Content */
+  .about-us-content {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .about-us-text {
+    flex: 1;
+  }
+  
+  .about-us-text h2 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .about-us-text p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .about-us-image {
+    flex: 1;
+  }
+  
+  .about-us-image img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* About Us Stats */
+  .about-us-stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+    background-color: #fff;
+  }
+  
+  .stat-box {
+    text-align: center;
+    padding: 1rem;
+    background: #f0f6ef;
+    border-radius: 8px;
+    width: 20%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stat-box .stat-icon {
+    font-size: 2rem;
+    color: #6cb76e;
+  }
+  
+  .stat-box h3 {
+    color: #333;
+    margin: 0.5rem 0;
+  }
+  
+  .stat-box p {
+    color: #555;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #6cb76e;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  

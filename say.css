@@ -1,0 +1,40 @@
+
+/* Call to Action */
+.book{
+    background: #e7c6ff;
+    height: 30vh;
+}
+
+
+
+
+.book-button {
+    text-align: center;
+    background-color: white;
+    color:#8a5aac ;
+    font-size: 1.2rem;
+    padding: 15px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.book-button:hover {
+    background-color: #633385;
+    color: whitesmoke;
+    transform: translateY(-3px);
+}
+
+
+.book h2{
+font-family:cursive;
+font-size: 4rem;
+color: #8a5aac;
+
+}
+
+.cta-img img{
+    border-radius: 15px 15px 15px 15px;
+    height: 25vh;
+    transform: translate(1100px,-150px);
+}

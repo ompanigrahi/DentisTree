@@ -1,0 +1,40 @@
+/* Merge Between Hero And Features */
+
+.merge1{
+    height: 6vh;
+    background-image: linear-gradient(to bottom, #c9d8f9, #bbd0ff);
+}
+
+
+/* Merge Between Features and Photos: */
+
+.merge2{
+    height: 6vh;
+    background-image: linear-gradient(to bottom, #bbd0ff, #b8c0ff);
+    
+}
+.merge2 h1{
+    font-family: cursive;
+    transform: translatex(40px);
+}
+
+/* Merge Between Photos & Testimonials: */
+
+.merge3{
+    height: 6vh;
+    background-image: linear-gradient(to bottom, #b8c0ff, #c8b6ff);
+}
+
+/* Merge Between Testimonials & Call TO Action: */
+
+.merge4{
+    height: 6vh;
+    background-image: linear-gradient(to bottom, #c8b6ff, #e7c6ff);
+}
+
+/* Merge Between Call TO Action & Contact Form: */
+
+.merge5{
+    height: 6vh;
+    background-image: linear-gradient(to bottom, #e7c6ff, #ffd6ff);
+}
