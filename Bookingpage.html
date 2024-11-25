@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Booking</title>
+    <link rel="stylesheet" href="file://D:/Projects/AWS app/CSS/bookingpage.css">
+    <script defer src="file://D:/Projects/AWS app/JAVASCRIPT/bookingpage.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1>Service Booking</h1>
+        <p>Book the best services at your convenience!</p>
+    </header>
+
+    <main>
+        <section class="services">
+            <h2>Our Services</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <h3>Dental Bonding</h3>
+                    <p>cosmetic procedure that uses tooth-colored resin to repair chips, cracks, gaps, or discoloration, enhancing the tooth's appearance and strength..</p>
+                    <button class="book-btn">Book Now</button>
+                </div>
+
+                <div class="service-item">
+                    <h3>Dental Crowns</h3>
+                    <p>Dental crowns are custom-made caps placed over damaged or decayed teeth to restore their shape, strength, and appearance..</p>
+                    <button class="book-btn">Book Now</button>
+                </div>
+
+                <div class="service-item">
+                    <h3>Root Canal Therapy</h3>
+                    <p>A dental procedure to remove infected or damaged pulp from a tooth, clean and seal it, preserving the natural tooth structure..</p>
+                    <button class="book-btn">Book Now</button>
+                </div>
+
+                <div class="service-item">
+                        <h3>Teeth Whitening</h3>
+                        <p>Teeth whitening is a cosmetic dental procedure that lightens stains and discoloration, enhancing the brightness of natural teeth..</p>
+                        <button class="book-btn">Book Now</button>
+                </div>
+
+                <div class="service-item">
+                        <h3>Tooth Extractions</h3>
+                        <p>Tooth extraction is the removal of a damaged, decayed, or problematic tooth to preserve oral health and prevent complications..</p>
+                        <button class="book-btn">Book Now</button>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="booking-form">
+            <h2>Book Your Service</h2>
+            <form action="#" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="service">Select Service:</label>
+                <select id="service" name="service" required>
+                    <option value="Dental Bonding">Dental Bonding</option>
+                    <option value="Dental Crowns">Dental Crowns</option>
+                    <option value="Root Canal Therapy">Root Canal Therapy</option>
+                    <option value="Teeth Whitening">Teeth Whitening</option>
+                    <option value="Tooth Extractions">Tooth Extractions</option>
+                </select>
+
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <button type="submit" class="submit-btn">Book Now</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 DentisTree. All rights reserved.</p>
+    </footer>
+</body>
+</html>
