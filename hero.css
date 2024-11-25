@@ -4,7 +4,7 @@
 .hero {
     position: relative;
     
-    background: url('D://Projects//AWS app//ASSETS//main_BG.jpg') no-repeat center center/cover;
+    background: url('main_BG.jpg') no-repeat center center/cover;
     height: 98vh;
     display: flex;
     justify-content: center;
@@ -14,7 +14,7 @@
 }
 /* Adding a futuristic hover animation to background */
 .hero-background {
-    background: url('D://Projects//AWS app//ASSETS//main_BG.jpg') no-repeat center center/cover;
+    background: url('main_BG.jpg') no-repeat center center/cover;
     transition: all 0.5s ease;
 }
 
